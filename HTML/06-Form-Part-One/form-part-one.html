@@ -14,31 +14,39 @@
 <body>
     <h1>Form prototype</h1>
     <form action="test.py" method="POST">
-        <label>Username</label>
-        <input type="text" required placeholder="enter your username" name="usernaem">
+        <div>
+            <label>Username</label>
+             <input type="text" required placeholder="enter your username" name="usernaem">
+        </div>     
         <hr>
-        <label>Email</label>
-        <input type="email" required placeholder="Enter your mail" name='email'>
+        <div>
+            <label>Email</label>
+            <input type="email" required placeholder="Enter your mail" name='email'>
+        </div>
         <hr>
-        
-        <label>Password</label>
-        <input type="password" placeholder="Enter complex password" name="password">
+        <div>
+            <label>Password</label>
+            <input type="password" placeholder="Enter complex password" name="password">
+        </div>
         <hr>
-        
-        <label>Subject</label>
-        <input type="text" placeholder="enter your favorite subject" name="subject">
+        <div>
+            <label>Subject</label>
+            <input type="text" placeholder="enter your favorite subject" name="subject">
+        </div>
         <hr>
-        
-        <label>Mobile</label>
-        <input type="text" placeholder="+20100 (234) 123" name="mobile">
+        <div>
+            <label>Mobile</label>
+            <input type="text" placeholder="+20100 (234) 123" name="mobile">
+        </div>
         <hr>
         <input type="hidden" value="5" name="user_id">
-
         <input type="reset" value="Empty Form">
         <hr>
         <input type="submit" value="Send Data">
     </form>
+    
     <br>
+
     <form>
         <input type="range" value="400" min="100" max="500" step="50">
     </form>
