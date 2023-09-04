@@ -1,0 +1,49 @@
+.one {
+    display: inline-block;
+    background-color: #eee;
+    padding: 15px;
+    margin: 15px;
+    outline: 5px solid #000;
+}
+
+.shape-01 {
+    border: 5px solid red;
+}
+
+.shape-02 {
+    border-style: solid;
+    border-color: blue green ;
+    border-width: 5px;
+}
+
+.shape-03 {
+    border-style: dashed;
+    border-color: red green blue yellow ;
+    border-width: 5px;
+
+}
+
+.shape-02-01, .shape-02-02, .shape-02-03 {
+    width: 400px;
+    background-color: #eee;
+    padding: 15px;
+    margin: 15px;
+    border-left-style: solid;
+    border-left-width: 6px;
+    outline: 12px solid #eee;
+}
+
+.shape-02-01 {
+    border-color: #e91e63;
+}
+
+.shape-02-02 {
+    visibility: hidden;
+
+}
+
+.shape-02-03 {
+    border-color: #169e92;
+}
+
+
