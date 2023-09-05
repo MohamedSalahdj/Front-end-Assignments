@@ -1,0 +1,48 @@
+.ass-01 {
+    text-transform: capitalize;
+    text-shadow: 0.5px 0.5px #c2352b , 1px 1px #3286e9, 1.5px 1.5px #9c27b0, 2px 2px #000 ;
+    /*  
+        #c2352b
+        #9c27b0
+        #3286e9
+    */
+}
+
+p .one {
+    text-transform: uppercase;
+}
+
+p .two {
+    text-transform: capitalize;
+}
+
+p .three {
+    text-transform: lowercase;
+}
+
+div {
+    width: 400px;
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 10px ;
+}
+
+div.three {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    background-color: #009688;
+    color: #fff;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 10px solid #00514a;
+    font-size: 30px;
+}
