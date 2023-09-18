@@ -1,0 +1,62 @@
+html {
+    font-size: 20px;
+}
+
+div.one,
+div.two, div.three,div.four {
+    padding: 20px;
+    border: 3px solid;
+    width: 500px;
+    margin: auto;
+}
+
+div.one {
+    border-color: #ff5722;
+    margin-bottom: 20px;
+}
+
+div.two {
+    border-color: #009688;
+}
+
+.one p, .two p {
+    background-color: #dddddd;
+    text-align: center;
+    padding: inherit;
+    border: inherit;
+}
+
+div.three {
+    border-color: #7d4a3a;
+    margin-top: 20px;
+}
+
+.three p {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.three .p-one {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.three .p-two {
+    font-family: 'Cairo', sans-serif;
+}
+
+div.four {
+    border-color: cyan;
+    margin-top: 15px;
+}
+
+.four .p-one {
+    font-size: 2.5rem;
+}
+
+.four .p-two {
+    font-size: 2rem;   
+}
+
+.four .p-three {
+    font-size: 1.5rem;
+}
