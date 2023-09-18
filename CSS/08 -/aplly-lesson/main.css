@@ -1,0 +1,34 @@
+
+.parent {
+    background-color: rgb(155, 169, 135);
+    padding: 10px;
+}
+.parent div {
+    /* background-color: red; */
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    float: left;
+    /* margin: 
+    6 space for 5 item 
+    one space = 12px 
+    total = 6 * 12 = 72px
+    
+    */
+    width: calc((100% - 72px) /5);
+    margin-left: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.one {
+    background-color: rgb(255 0 0 / 46%)
+}
+
+.two {
+    background-color: red;
+    opacity: 0.46;
+}
