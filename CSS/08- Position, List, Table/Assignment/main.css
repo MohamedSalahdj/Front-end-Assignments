@@ -1,0 +1,138 @@
+.parent {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.green,
+.red,
+.blue,
+.black {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.green {
+    background-color: #009688; 
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+}
+
+.red {
+    background-color: #f44336;
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+
+
+
+.blue {
+    background-color: #03a9f4;
+    top: 20px;
+    left: 20px;
+
+}
+
+.black {
+    background-color: #333333;
+    z-index: -1;
+    top: 30px;
+    left: 20px;
+}
+
+.parent-two {
+    width: 400px;
+    background-color: #eeeeee;
+    margin: 25px auto;
+    padding: 20px;
+    border: 2px solid;
+    border-color: #f44336 #2196f3;
+    position: relative;
+}
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right {
+    background-color: #2196f3;
+    position: absolute;
+    padding: 4px  11px;
+    color: white;
+    text-align: center;
+}
+
+.top-left {
+    top: -15.5px;
+    left: -16px;
+    border-right: 2px solid #f44336;
+}
+
+.top-right {
+    top: -15.5px;
+    right: -16px;
+    border-left: 2px solid #f44336;
+    
+
+}
+
+ul.ul-parent {
+    width: 400px;
+    margin: 25px auto;
+}
+
+li.group {
+    background-color: #eee;
+    padding: 6px;
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+ol li,
+ul li {
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.two ol {
+    list-style-type: upper-roman;;
+}
+
+li.three li {
+    list-style-position: inside;
+}
+
+table {
+    width: 700px;
+    margin: 20px auto 50px;
+}
+
+th {
+    background-color: #404040;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 25px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+a {
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.link-01 {
+    background-color: #03a9f5;
+}
+
+.link-02 {
+    background-color: #e91e63;
+}
