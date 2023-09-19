@@ -1,0 +1,28 @@
+/* Float - clear :
+    Elements float in out workflow 
+        Slove this proplem to reset height */ 
+    
+     /* 
+        first -- > overflow: hidden; [ untile prolem not solved because hase dropdown ]
+        second --> specify height for parent height: 60px; [ not the best solution because don't now specific height ]
+        third --> clear: both;
+    */
+
+
+
+/*           
+    opacity Vs background-color : 
+        opacity  : include content and background
+        background-color: include only background
+
+*/
+
+
+/* 
+    claculation 
+    content width is : 100%
+    6 space for 5 item --> 8px * 6 = 48
+    100% -48 px
+    the width of every element calc ( (100% -48px) / 5 )
+
+*/ 

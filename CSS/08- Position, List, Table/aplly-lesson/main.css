@@ -1,0 +1,45 @@
+.parent-01,
+.parent-02 {
+    width: 500px;
+    height: 200px;
+    
+}
+
+.parent-01 {
+    background-color: rgb(157, 98, 98);
+    margin-bottom: 15px;
+}
+
+.parent-02 {
+    background-color: #ddd;
+}
+.one,
+.two {
+    width: 100px;
+    background-color: dodgerblue;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.one {
+    background-color: cyan;
+}
+
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #ddd;
+    color: red;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fix {
+    position: fixed;
+    top: 0;
+    right: 1px;
+}

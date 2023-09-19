@@ -1,0 +1,50 @@
+
+
+/* Position 
+    - use it to move any element in our layout 
+    - use it in complex layout 
+
+    [1]  static   --> default ( not effect with any direction ) use it when you want to rest any element
+    
+    [2]  relative --> move it depend on hisyourself & can it put negative value 
+    
+    
+    [3]  absolute : when use it this property will move out workflow 
+        - ELEMENT distributed depend parent that contain this element
+        - when you want to move any element in other element you must make parent position : relative
+
+    [4] fixed move it depend on page whatever where is his 
+    
+    [5] sticky
+*/
+
+
+/* z-index  : relative order of any element 
+    [1] - don't work without position 
+    [2] - if you have two element has the same number of z-index last oreder will win 
+    [3] - if you put [ -1 ]  to any elemnet will be the last element in the layout 
+*/
+
+/* 
+    list-style-type 
+    list-style-position
+    list-style-image
+
+    shorthand 
+    list-stlye: type position image
+
+    use it to reset  padding and margin 
+*/
+
+
+/* Table
+    border-collapse: collapse;
+    nth-child(even)
+    nth-child(odd)
+
+    tr:nth-child(even),th:nth-child(even),td:nth-child(even){
+    background-color: rgba(150, 212, 212, 0.4);
+
+*/
+
+

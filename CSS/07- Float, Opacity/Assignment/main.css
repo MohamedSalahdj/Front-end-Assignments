@@ -1,0 +1,60 @@
+.parent {
+    width: 800px;
+    background-color: #eee;
+    margin: auto;
+}
+
+.row-01 div,
+.row-02 div,
+.row-03 div,
+.row-04 div {
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+.row-01 div {
+    width: calc((100% - 30px) / 1);
+}
+
+.row-02 div {
+    width: calc((100% - 60px) / 3);
+}
+
+.row-03 div {
+    width: calc((100% - 45px) / 2);
+}
+
+.row-04 div {
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+
+}
+
+div.clear {
+    clear: both;
+}
+
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color:#b3b3b3; /* Get The Background From Image */
+    color: black;
+}
+
+.one {
+    background-color: rgba(179, 179, 179, 0.1);
+}
+
+.two {
+    opacity: 0.1;
+}
