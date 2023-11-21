@@ -6,12 +6,98 @@
     margin-bottom: 8px;
     padding: 8px;
     line-height: 60px;
-
-
 }
+
 .one-1, .one-3 {
     background-color: #eee;
 }
+
 .one-2 {
     background-color: #f00;
+}
+
+hr {
+    height: 5px;
+    background-color: #607d8b;
+}
+
+.two {
+    background-color: #d4d4d4;
+    width: 300px;
+    margin: auto;
+    padding: 18px;
+}
+.two::first-letter {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-left: -24px;
+    margin-right: 7px;
+}
+
+.three {
+    width: 400px ;
+    background-color:#efefef;
+    padding: 15px;
+    margin: 10px 50px;
+    border-left: 5px solid #e91e63 ;
+    position: relative;
+    margin: 10px 150px;
+}
+
+.three::before {
+    content: attr(data-person);
+    width: 50px;
+    text-align: center;
+    background-color: #ddd;
+    padding: 8px;
+
+    position: absolute;
+    left: -95px;
+    top: 50%;
+    margin-top: -17.05px;
+}
+
+.three::after {
+    content: "";
+    border: 8px solid;
+    border-color: transparent #e91e63 transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -7.65px;
+}
+
+.four {
+    background-color:  #efefef;
+    width: 400px;
+    padding: 10px 32px;
+    margin: 10px 50px;
+    /* border-right: 4px solid #f44336; */
+    counter-increment: count-paragraph;
+    position: relative;
+    
+}
+
+.four::before {
+    content: counter(count-paragraph);
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    /* line-height: 42.8px; */
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.four::after {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #f44336;
+    position: absolute;
+    top: 0;
+    right: -2px;
+
 }
