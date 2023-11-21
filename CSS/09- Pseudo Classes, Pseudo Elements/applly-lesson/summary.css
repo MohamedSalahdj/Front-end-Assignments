@@ -1,0 +1,44 @@
+/*  Force state
+    pseudo classes :
+        A pseudo-class is used to define a special state of an element.
+        For example, it can be used to:
+            Style an element when a user mouses over it
+            Style visited and unvisited links differently
+            Style an element when it gets focus
+        
+        1- :hover 
+        2- :checked
+        3- :visited
+        4- :active
+        4- :empty
+        5- :foucs
+        6- first-child
+        
+    order --> 
+        a:link 
+        a:visited
+        a:hover
+        a:active
+*/
+
+
+/* defaulte value background --> transparent */
+
+/* 
+    pseudo Element (::)
+        1- ::first-letter
+        2- ::first-line
+        3- ::selection 
+
+        when you want to use (Before OR After ) you should add content attribute 
+        4- ::Before 
+        5- ::After 
+        ------------------
+        6- content : counter( counter name )
+        7- counter-increment : counter name        
+
+       content: attr()
+       content: url
+*/
+
+/* search on css prefix */

@@ -1,0 +1,17 @@
+.one-1, .one-2, .one-3 {
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 8px;
+    line-height: 60px;
+
+
+}
+.one-1, .one-3 {
+    background-color: #eee;
+}
+.one-2 {
+    background-color: #f00;
+}
