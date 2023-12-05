@@ -33,3 +33,6 @@ console.table(["Elzero","Ahmed","Sameh","Gamal","Aya"])
 // console.table("Aya")
 
 //? Assignment-06
+//! make comment or don't invoked js file in html
+// console.log("Iam In Console");
+// document.write("Iam In Page");
