@@ -1,0 +1,8 @@
+
+//? Data Types 
+/*
+
+    typeof 
+
+
+*/
