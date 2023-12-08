@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ass-01 */
+.one {
+    margin: 100px auto ;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 5px 0 #fd6c3e, -5px 0 #3fbef7 ;
+}
