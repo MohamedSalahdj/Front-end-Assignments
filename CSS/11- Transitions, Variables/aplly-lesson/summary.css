@@ -1,0 +1,41 @@
+/* 
+- Transition 
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transition-property: width;
+    transition-timing-function: 
+                ease ::--> slow fast slow 
+                linear ::-> same speed in first and last 
+                esae-in ::-> slow fast
+                ease-out ::-> normal slow 
+                ease-in-out ::-> start slow , end slow 
+    
+    shorthand : property duration  delay timing-function                  
+    transition: all 2s 0.5s linear;
+
+----------------------------------------------
+
+- Variables , important declaration 
+
+-- Gloabal variable
+-- local variable 
+
+Put variable in root element && use it by Var(--variable_name, fallback value )
+
+:root {
+    --variable_name : value ;
+
+
+
+
+-----------------------------------------------
+
+- Margin collapse : 
+    1- happend vertically only 
+    2- Bigger margin win
+    3- margin collapsing without any element between 
+    4- Nesting does not prevent collapsing 
+
+
+
+*/
