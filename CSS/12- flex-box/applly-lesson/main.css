@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: dodgerblue;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.container div{
+    background-color: #0daa5c;
+    padding: 10px;
+    flex-basis: calc(100% / 2);
+}
+
+.container div:first-child {
+    background-color: #f1f1f1;
+}
+
+.container div:last-child {
+    background-color: #aa0d0d;
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+    .container {
+        flex-direction: column;
+    }
+    /* .container div{
+        flex: 100%;
+        max-width: 200px;
+    } */
+}

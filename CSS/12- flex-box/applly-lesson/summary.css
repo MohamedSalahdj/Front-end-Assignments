@@ -1,0 +1,67 @@
+/* 
+lesson one
+    flexible Box
+
+    for parent  
+    -- display: flex => to start flexiable flex 
+    
+    -- flex-direction: row   => defaulte value 
+        some value 
+            row-reverse 
+            column
+            column-reverse 
+    
+        -- flex-wrap: nowrap => defaulte
+        some value
+            -- wrap 
+            -- wrap-everse 
+
+    shorthand 
+    flex-flow: [flex-direction flex-wrap ] 
+
+lesson-two    ( horizontal )
+    justify-content: flex-start default value
+        some value
+            - flex-end
+            - center
+            - space between
+            - space-around
+            - space-evenly
+    
+lesson -Three ( vertical )
+    align-items => stretch default value (stretch to sit content)
+        some value 
+            - flex-start
+            - flex-end
+            - center == (line-hight)
+            - baseline
+
+lesson-four 
+    align-content ==> stretch default value
+        some value 
+            - flex-start
+            - flex-end
+            - center == (line-hight)
+
+lesson-Five
+    flex-grow : 0 default value 
+    flex-shrink: 1 default value 
+    order : 0
+    
+lesson-six 
+    flex-basis : auto ==> default value like width 
+        do on width and height 
+        effect by max-width
+    shorthand 
+    flex: [ flex-grow flex shrink flex basis ] 0 1 auto 
+            
+    inline-flex ==> if  you want make any elemnt flex next to anthor element 
+
+lesson-seven 
+    align-self === > auto 
+        some value
+            stretch
+            flex-end
+            flex-start
+            center  
+*/
