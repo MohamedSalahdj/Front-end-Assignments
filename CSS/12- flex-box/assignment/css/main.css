@@ -46,3 +46,16 @@ li:hover {
 li:hover a {
     color: #000;
 }
+
+
+@media (max-width: 767px){
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        width: 80%;
+        margin-bottom: 8px;
+        padding: 5px;
+    }
+}
