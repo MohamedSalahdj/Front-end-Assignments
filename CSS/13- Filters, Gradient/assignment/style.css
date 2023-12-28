@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-div {
+.one {
     width: 600px;
     background-color: #eee;   
     text-align: center;
@@ -18,11 +18,11 @@ div {
     position: relative;
 }
 
-div::first-letter {
+.one::first-letter {
     color: #f44336;
 }
 
-div::before {
+.one::before {
     content: "";
     width: 600px;
     height: 5px;
@@ -41,7 +41,7 @@ div::before {
     #9c27b0 100%);
 }
 
-div::after {
+.one::after {
     content: "";
     width: 600px;
     height: 5px;
@@ -59,3 +59,41 @@ div::after {
     #9c27b0 80%,
     #9c27b0 100%);
 }
+
+
+.two {
+    width: 600px;
+    margin:10px  auto;
+    position: relative;
+}
+
+.two input {
+    display: block;
+    background-color: #f4f4f4;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    caret-color: red;
+}
+
+.two #one-2, .two #one-3 {
+    color: #757575;
+
+}
+
+.two::after {
+    content: "";
+    width: 600px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    background-image: linear-gradient(to right,
+    #f44336 50%,
+    #009688 50% );
+}
+
