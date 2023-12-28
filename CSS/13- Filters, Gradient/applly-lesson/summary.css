@@ -1,0 +1,33 @@
+
+/* 
+Lesson One
+    filter : property defines visual effects (like blur and saturation) to an element (often <img>)
+        - grayscale( number % ) --> 
+        - blur( number px)
+        - invert() from zero To 100%
+        - can you add more thna one filter 
+        filter : blur(1px) grayscale(100%) ....;
+
+Lesson Two 
+    Gradients
+    background-image : linear-gradients(direction || Angle,color stop1,color stop 2, .....)
+        TO top 0 degree OR to top 360 degree
+        To right 90 degree
+        to bottom 180 degree
+        to left 270 degree
+
+Lesson Three
+    caret color
+    pointer event --> very important
+
+*/
+/* img { */
+    /* transition: 5s; */
+    /* filter: grayscale(100%); */
+    /* filter: blur(4px); */
+    /* filter: invert(100%); */
+/* } */
+
+/* img:hover {
+    filter: grayscale(0);
+} 

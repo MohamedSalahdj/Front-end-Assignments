@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* filter */
+img {
+    display: block;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    filter: blur(2px) grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+}
+
+/* Gradients */
+
+.one {
+    color: dodgerblue;
+    width: 500px;
+    height: 250px;
+    border: 2px solid #eee;
+    margin: 50px auto;
+    line-height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.one::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: -10px;
+    left: 0;
+    background-image: linear-gradient(to right,
+    #2196f3 20%, 
+    #4db6ac 20%,
+    #4db6ac 40%,
+    #43a047 40%,
+    #43a047 60%,
+    #ff9800 60%,
+    #ff9800 80%,
+    #ff7043 80%);
+}
+
+.two {
+    padding: 10px;
+    border: 2px solid #2196f3;
+    margin-top: 50px;
+    caret-color: dodgerblue;
+    /* pointer-events: stroke; */
+}
