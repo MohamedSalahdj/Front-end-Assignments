@@ -1,0 +1,53 @@
+/* 
+grid
+  parent  
+    display : grid
+    grid-template-columns = > [ number of columns in ] => [ px , % , auto, mix, fraction]
+    you can use repeat method (Number of columns , width)
+    ! fraction :is gready 
+    ! auto : is shy
+    grid-template-rows => [ Numbers of rows height in ] => [ px, %, auto,fraction , repeat() ]
+    row-gap (grid-row-gap)
+    column-gap (grid-column-gap)
+    gap : row column
+
+  lesson-three
+      justify-content :- horizontal 
+      align-content   :- vertical
+  
+  lesson-four
+      grid-template-areas "row-1" " row-2 " "row-3" "........"
+      grid-area : name_of_area  
+start
+      grid-area: is a shorthand of (grid-row-start,grid-column-,grid-row-end,grid-column-end)
+        use to change position of item
+  child
+  lesson-five
+
+
+ /*!  if you want make one free column put . */
+ /*? make sure when use grid-column certainly about of no of col [ when don't use span ] */
+
+ 
+/*  grid-2 */
+
+/* 
+  grid
+    child
+    grid-column: 1 / 5 end not include ==> { 1--> grid-column start } 5 ==> grid column end
+    --  span 4 == from start to 4 
+    --  2 / span 3  start from column 2 and take 3 column
+
+    grid-row : 1/ 3 you can use span
+
+  grid-area: [Grid Row start] [Grid column start ] [Grid Row End] [Grid column End]
+
+
+  last lesson 
+    minmax(min-width, max-width) -> biger than fraction 
+    auto-fill :- put it 
+    repeat( auto-fill, min-max( 200px, 1fr) :- 
+
+    auto-fit : search about it , ch :- unit
+
+*/

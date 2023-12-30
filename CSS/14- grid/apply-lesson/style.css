@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 800px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    text-align: center;
+    justify-content: space-between;
+    align-content: space-between;
+    color: #fff;
+    /* column-gap: 10px;
+    row-gap: 8px; */
+    /* gap: 10px 8px; */
+}   
+
+.parent > div {
+    padding: 15px;
+    background-color: dodgerblue;
+}

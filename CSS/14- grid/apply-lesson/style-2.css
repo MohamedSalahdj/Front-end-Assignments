@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    width: 600px;
+    height: 400px;
+    background-color: #eee;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+
+}
+
+.grid-container > div {
+    color: #fff;
+    background-color: #f00;
+    padding: 15px 10px;
+    text-align: center;
+
+}
