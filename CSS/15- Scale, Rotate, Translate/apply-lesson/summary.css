@@ -1,0 +1,30 @@
+/* 
+            2D Transform 
+Scale
+    - scaleX(1) default
+    - scaleY(1) default
+    - scale(x,y) if you don't write second value will take it value from first value 
+    #you can write negative value 
+    
+The Rotate Method
+    you can write negative value 
+        -- deg   => degrees 0 ,90 ,180 ,270 ,360 
+        -- rad   => Radians
+        -- grad  => Gradians 
+        -- tuen  => one Turn  1turn, 0.25turn, 0.5turn , 0.75turn 
+    transform: rotate()
+        360deg = 6.28rad , 400grad , 1turn 
+        
+    !if you write scale don't work because rotate do reset on scale
+        transform: scale(1.2)
+        transform: rotate(40deg) 
+
+    ?if you want work together 
+        transform: scale(1.5) rotate(180deg)
+        
+        
+-the translate method (x,y)
+you can write negative value 
+if you don't write second value will put 0
+
+*/
