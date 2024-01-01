@@ -41,3 +41,53 @@
     z-index: -2;
     transform: rotate(6deg) scale(1.01);
 } 
+
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.two::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-color: #e91e63 #e91e63 #e91e63 transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    transition: 0.5s;
+}
+
+
+.two::before {
+    content: "";
+    width: 220px;
+    height: 220px;
+    border: 10px solid;
+    border-color: #03a9f4 transparent #03a9f4 #03a9f4;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    transition: 0.5s transform 0.5s;
+}
+
+.two:hover::after{
+    transform: rotate(360deg);
+}
+
+.two:hover::before{
+    transform: rotate(360deg);
+}
