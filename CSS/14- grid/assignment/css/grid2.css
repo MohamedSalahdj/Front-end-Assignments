@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --pading : 15px;
+}
+
+/* html,body {
+    height: 100%;
+} */
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "head head head head head head head head head head head head"
+    "sec sec sec sec sec sec sec sec aside aside aside aside"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+    min-height: 100vh;
+
+}
+
+.layout header,
+.layout section,
+.layout aside,
+.layout footer {
+    padding: var(--pading);
+    color: #fff;
+}
+
+.layout header {
+    grid-area: head;
+    background-color: #03a9f4;
+}
+
+.layout header::before {
+    content: "Header";
+}
+
+.layout section {
+    grid-area: sec;
+    background-color: #ff5722;
+
+}
+
+.layout section::before {
+    content: "Section";
+}
+
+.layout aside {
+    grid-area: aside;
+    background-color: #607d8b;
+}
+
+.layout aside::before {
+    content: "Aside";
+}
+
+.layout footer {
+    grid-area: footer;
+    background-color: #009688;
+}
+
+.layout footer::before {
+    content: "Footer";
+}
+
