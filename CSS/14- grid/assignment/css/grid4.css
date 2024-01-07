@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    align-content: flex-end;    
+    gap: 20px;
+    color: #fff;
+}
+
+.grid > div {
+    background-color: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid .one {
+    grid-column: 1 / span 3;
+    grid-row: 6 ;
+}
+
+
+.grid .two {
+    grid-column: 1 / span 2;
+}
+
+.grid .three {
+    grid-column: 3;
+}
+
+.grid .four {
+    grid-column: 1;
+
+}
+
+.grid .five {
+    grid-column: 2 / 4;
+    grid-row: 3 /span 3;
+}
+
+.grid .six {
+    grid-column: 1;
+}
+
+.grid .seven {
+    grid-column: 1;
+}
+
+.grid .eight {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
