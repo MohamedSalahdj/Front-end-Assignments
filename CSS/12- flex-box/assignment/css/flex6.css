@@ -14,11 +14,13 @@
 .page {
     background-color: #eee;
     overflow: hidden;
+    height: 100vh;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    height: 10vh;
 }
 
 .logo,
@@ -29,9 +31,11 @@
     display: flex;
     justify-content: center;
     width: calc(100% / 8);
-    height: 40px;
-
+    height: 80%;
+    align-items: center;
 }
+
+
 
 .links {
     justify-content: flex-end;
@@ -41,12 +45,13 @@
 
 .links li {
     padding-left: 10px;
+    /* align-self: center; */
 }
 
 .main-area {
     display: flex;
     justify-content: space-between;
-    /* height: 400px; */
+    height: 80vh;
 
 }
 .content, 
@@ -54,7 +59,7 @@
     background-color: var(--background-color);
     margin: var(--margin);
     padding: var(--padding);
-    height: 400px;
+    height: 95%;
 
 }
 
@@ -68,8 +73,14 @@
 
 .footer {
     background-color: var(--background-color);
-    margin: var(--margin);
+    margin: 0 var(--margin);
     padding: var(--padding);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+.footer > div {
+    height: 90%;
 }
