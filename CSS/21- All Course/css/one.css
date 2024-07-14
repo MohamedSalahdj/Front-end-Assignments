@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --line-width: 5px; 
+}
+
+.elzero-lines {
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    outline: var(--line-width) solid #000;
+    position: relative;
+    border: var(--line-width) solid green;
+}
+
+.elzero-lines::before {
+    content: "";
+    height: 80px;
+    width: 480px;
+    display: block;
+    padding: 1px;
+    border: var(--line-width) solid blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    
+}
+
+.elzero-lines::after {
+    content: "";
+    height: 70px;
+    width: 470px;
+    padding: 1px;
+    display: block;
+    border: var(--line-width) solid red;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+} 

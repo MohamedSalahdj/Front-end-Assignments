@@ -23,11 +23,14 @@
     - undefined 
 
     - null
+
+    - NAN
 */
 
 //? variable
 /*
-    js is a losely typed language  
+    js is a losely typed language  :
+      variables do not require explicit declaration of their data type when they are created. 
     syntax 
         var variable_name =  variable_value 
 
