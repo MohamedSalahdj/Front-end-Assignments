@@ -3,7 +3,7 @@
     --background-gray: #c9c9c9;
     --background-white: #fff;
     --color-border-active: #3171ff;
-    --color-size: #565656;
+    --color-size: #555555;
 }
 
 body {
@@ -73,11 +73,7 @@ body {
     background-color: var(--color-border-active);
 }
 
-.product-size {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: var(--color-size);
-}
+
 
 .sub {
     font-size: 1rem;
@@ -90,12 +86,18 @@ body {
     color: #5b5a59;
 }
 
-.standard__product-info span,
-.pro__product-info span,
-.unlimate__product-info span,
-.standard__price span,
-.pro__price span,
-.unlimate__price span{
+.standard__product-info > span,
+.pro__product-info > span,
+.unlimate__product-info > span,
+.standard__price > span,
+.pro__price > span,
+.unlimate__price > span{
     color:  #99938e;
 
+}
+
+.product-size {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000;
 }

@@ -1,0 +1,66 @@
+:root {
+    --main-background: #eeeeee;
+    --table-header-background: #dddddd;
+    --table-total-background: #ffe400;
+    --table-total-value-background: #009aff;
+    --table-caption-background: #cccccc;
+    --table-body-background: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+table {
+    margin: 3rem auto;
+    padding: 1.3rem;
+    width: 80vw;
+    position: relative;
+}
+
+caption {
+    position: absolute;
+    bottom: -0.5rem;
+    left: 1.5rem;
+    width: 95.5%;
+    background-color: var(--table-caption-background);
+    padding: 0.3rem 2rem;
+}
+
+thead th {
+    background-color: var(--table-header-background);
+}
+
+tbody td{
+    background-color: var(--table-body-background);
+}
+
+thead th,
+tbody td {
+    padding: 0.3rem 2rem;
+
+}
+
+tfoot td:not(:first-child) {
+    color: #fff;
+    background-color: var(--table-total-value-background);
+    text-align: center;
+    padding: 0.3rem 2rem;
+}
+
+tfoot td:first-child {
+    text-align: center;
+    background-color: var(--table-total-background);
+    padding: 0.3rem 2rem;
+}
