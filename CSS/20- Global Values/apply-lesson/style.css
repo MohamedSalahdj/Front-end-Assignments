@@ -40,5 +40,17 @@
         
         - unset : act as inherit if the property was inheritaince but act as initial if not 
 
-        - all 
+        - all :- all property 
+
+        - revert : return property of elemnt to user agent if you change it such as 
+        body {
+            margin : 0
+        }
+*/
+
+/*  Important site
+    - CSS Battle
+    - front-end mentor 
+    - codepen
+
 */
