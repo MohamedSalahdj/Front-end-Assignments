@@ -1,8 +1,8 @@
 /*  
-    Font Size And CSS Units
+    Font Size And CSS Units [value can be an absolute, or relative size.]
     # default font-size == 16px
-        
-        - px
+    units        
+        - px 
         
         - em: 1em ==> one Time time from inherite parent 
         
@@ -10,14 +10,20 @@
         
         - percentage : take from parent 
 
-        - vw: View port width => 1% from all width 
+        
+        - vw: viewport width [ Responsive Font Size ]
+            1vw => 1% from all width 
+            for exapmle width equal 600px
+            and want to make font-size : 5vw;
+            1% -> 600px
+            6 * 5 = 30px
         
     Read 
     - Vwh
     - vmin 
 
-    font-variant:
-    font-style:
+    font-variant: [normal, small-caps[all lowercase letters are converted to uppercase letters. However, the converted uppercase letters appears in a smaller font size than the original uppercase letters in the text.]]
+    font-style: [italic, normal, oblique]
     font-wdight -> 100 ==> 900 , bold OR normal 
 
 

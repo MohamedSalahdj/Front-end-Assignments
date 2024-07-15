@@ -4,6 +4,8 @@
 // [         Comment         ]
 // single line comment 
 
+//
+
 /*
     mutiple line comment 
 */

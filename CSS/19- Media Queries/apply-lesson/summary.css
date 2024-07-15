@@ -1,0 +1,65 @@
+/* 
+    { max-width -->   0 TO  width    }
+    { min-width --> width to infint  }
+    can you add media attribute in link OR style
+*/
+
+
+/* 
+
+@media conditon {
+    block of code
+}
+
+*/
+
+
+/* @media print {
+    .parent > div:first-child {
+        display: none;
+    }
+} */
+
+/* @media (min-width: 1200px) {
+    .parent > div {
+        background-color: blue;
+    }
+} */
+
+/* @media (min-width: 1000px) and (max-width: 1200px){
+    .parent > div {
+        color: red;
+        background-color: blue;
+    }
+} */
+
+
+/* Mobile */
+@media (max-width: 767px){
+
+}
+
+/* Small Screen */
+@media (min-width: 768px){
+
+}
+
+/* Medium Screen */
+@media (max-width: 992px){
+
+}
+
+/* Larage Screns */
+@media (min-width: 1200px){
+
+}
+
+/* X Large Screns */
+@media (min-width: 1400px){
+    
+}
+
+/* Custom */
+@media (max-width: 1199px){
+
+}

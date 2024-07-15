@@ -20,8 +20,8 @@
 // console.log(typeof NaN)  //! number
 
 
-// console.log(10+"10")
-// console.log(10+"10"-1)
+console.log(10+"10")
+console.log(10+"10"+1)
 
 // console.log(x++) //? print then increment
 // console.log(x)   //? 
@@ -53,17 +53,17 @@
 // console.log(x)
 // console.log(+x)
 
-// x = "-555" 
-// x = +x
+x = "-555" 
+x = +x
 // console.log(x)
-// console.log(typeof x)
-// console.log(+"Osama");
+// console.log(typeof x) //number
+// console.log(+"Osama"); // NaN
 // console.log(+"15.5");
 // console.log(+0xff);
 
 // console.log(+null); // 0
-// console.log(+false);
-// console.log(+true);
+// console.log(+false); // 0
+// console.log(+true); //1
 
 // console.log("-------------------");
 
@@ -80,18 +80,26 @@
 
 /*
   !Type Coercion (Type Casting)
+    Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another
   - +
   - -
   - "" - 2
   - false - true
+
+
+!The Equality Operator
+The equality operator (==) can be used to compare 'values' irrespective of their type.
+ This is done by coercing a non-number data type to a number
 */
+
 
 
 let a = "100";
 let b = 20;
 let c = true;
 
-console.log(a+b+c); //10020true
+// console.log(true + '10') //true10
+// console.log(a+b+c); //10020true
 
 
 /*
@@ -109,3 +117,4 @@ a += 100; // a = a + 100
 a -= 50; // a = a - 50
 
 a /= 50; // a = a / 50
+
