@@ -22,6 +22,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    margin-top: 15rem;
 }
 
 .parent > div {
@@ -35,7 +36,20 @@ p:first-of-type {
     font-weight: bold;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 992px) {
+    .parent > div {
+        width: 45%;
+        margin-bottom: 1.6rem;
+    }
+
+    p:first-of-type {
+        color: red;
+        font-weight: bold;
+    }
+}
+
+
+@media (max-width: 767px) {
     .parent {
         height: 100%;
         flex-direction: column;
@@ -52,3 +66,4 @@ p:first-of-type {
         color: black;
     }
 }
+
