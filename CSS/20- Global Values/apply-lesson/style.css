@@ -1,0 +1,44 @@
+/* 
+    - Create Your Framework
+        - when use framework make the code more faster and easy 
+        - how can create it 
+*/
+
+
+.center-position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background-color: dodgerblue;
+    padding: 1.2rem;
+    color: #fff;
+}
+
+
+/* 
+    - CSS Global Values
+        - inherit 
+
+        -initial :- default value [ all elemnt are inline but user agent add (div, p, h) --> block ]
+            -color : initail value chnage from browser to other 
+        
+        - unset : act as inherit if the property was inheritaince but act as initial if not 
+
+        - all 
+*/
