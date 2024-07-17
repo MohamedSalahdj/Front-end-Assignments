@@ -1,0 +1,28 @@
+/* assign-01 */
+div.main.red {
+    color: red;
+}
+/* end assign-01 */
+
+/* assign-02 */
+.child + .child {
+    color: red;
+}
+/* end assign-02 */
+
+/* assign-03 */
+.parent .baby:only-child {
+    color: red;
+}
+/* end assign-03 */
+
+
+/* assign-04 */
+.four > div[title]:not(.no-need) {
+    color: red;
+}
+/* end assign-04 */
+
+.five div:nth-child(2) div{
+    color: red;
+}

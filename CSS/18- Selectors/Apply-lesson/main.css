@@ -1,0 +1,113 @@
+/*
+    - Lesson One
+        - *         --> all_element
+        - Element   such as p, h2, h1, div
+        - Element Other Element => div p
+        - classname
+        - #id_name
+        - .parent .child 
+        - .class-one.class-two element take two classes 
+        - class-name div, class-name p  { bdor 3ly element div or p inside element take class with class-name
+        - element.p 
+        - .classname > .child --> direct child
+    
+    
+    - Lesson two
+        - element + other element [ div + p ]
+        - element ~ other element 
+        
+        - [attribut]
+        - Element[attribut]
+        - [attribute='value']
+        - Element[attribut='value']
+        - input[type='submit']
+        
+        -  [attribute ~='value'] contains a word
+        -  [attribute *='value'] contains a string
+        -  [attribute ^='value'] start with a string
+    
+    - Lesson Three
+        - :first-child
+        - :last-child
+
+        - :first-of-type
+        - :last-of-type
+
+        - :only-child
+        - :only-of-type
+
+    - Lesson Four
+        - :not(:first-child) :-> all without first-child
+        
+        --- nth master website
+        - :nth-child(2)       :->
+        - :nth-child(odd)
+        - :nth-child(even)
+
+        - :nth-last-child(n)  : counter from last
+        - :nth-of-type(n)     : counter by type
+    
+    - Lseeon Five 
+        - :root
+        - :checked
+        - :empty
+        - :disabled
+        - :required
+        - :focus
+        
+        - ::selection
+        - ::placeholder
+    
+*/
+
+[title='hello'] {
+
+}
+
+div[title]{
+
+}
+
+div ~ p {
+    /* mn alas8a8 */
+}
+
+div + p {
+
+}
+
+div p {
+
+}
+
+.class_name {
+
+}
+
+#id_name {
+
+}
+
+.parent .child {
+
+}
+
+.class-one.class-two {
+
+}
+
+.class-name div {
+
+}
+
+p.class-name {
+
+}
+
+.parent .child {
+
+}
+
+.parent > .child {
+    
+}
