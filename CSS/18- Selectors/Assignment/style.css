@@ -23,6 +23,31 @@ div.main.red {
 }
 /* end assign-04 */
 
+/* assign-05 */
 .five div:nth-child(2) div{
     color: red;
 }
+/* end assign-05 */
+
+/* assign-06 */
+
+
+/* end assign-06 */
+
+
+/* assignment-07 */
+/* div:first-child div:nth-last-child(2) {
+    color: red;
+} */
+/* end assignment-07 */
+
+
+/* assignment-08 */
+
+div :not(:first-child, h3, :last-child) {
+    color: red;
+}
+
+/* end assignment-08 */
+
+
