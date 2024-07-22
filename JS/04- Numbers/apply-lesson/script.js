@@ -35,3 +35,12 @@ console.log(Number.isInteger(100.500));
 console.log(Number.isInteger(100));
 
 console.log(Number.isNaN("Osama" / 20));
+
+console.log(100.10.toString())
+
+// practical in w3
+
+
+console.log(123e5) // 12300000
+
+console.log(1234e-5) //0.01234
