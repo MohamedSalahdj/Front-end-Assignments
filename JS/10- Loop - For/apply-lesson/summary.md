@@ -43,7 +43,7 @@ for (;;) {
 }
 
 <!-- Lesson-06  -->
+Practice – Add Products To Page
 
 
-<!-- Lesson-07  -->
 

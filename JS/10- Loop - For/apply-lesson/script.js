@@ -79,4 +79,29 @@ console.log("---------------------");
 console.log("---------------------");
 console.log("---------------------");
 
+//["Keyboard", "Mouse", 1, 2, 5, "Pen", "Pad", 15, -1, "Monitor"] 10
 // lesson-05
+let i = 0;
+for (;;){
+    console.log(products[i]); //Monitor
+    i++; //10
+    if(i === products.length)break;
+}
+
+// Lesson-06
+
+let myProducts = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor", "iPhone"];
+let myColors = ["Red", "Green", "Blue"];
+let showCount = 3;
+
+document.write(`<h1>Show ${showCount} Products</h1>`)
+
+for (let i = 0; i < showCount; i++){
+    document.write(`<div>`)
+    document.write(`<h3>${i + 1} - ${myProducts[i]}</h3>`)
+    for(let j = 0; j < myColors.length; j++){
+        document.write(`<p>${colors[j]}</p>`)
+    }
+    document.write(`<p>${colors.join(" | ")}</p>`)
+    document.write(`</div>`)
+}
