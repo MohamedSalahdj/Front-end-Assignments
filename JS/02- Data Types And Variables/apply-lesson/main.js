@@ -29,23 +29,8 @@
 
 //? variable
 /*
-<<<<<<< HEAD
     js is a losely typed language  :
       variables do not require explicit declaration of their data type when they are created. 
-=======
-    js is a losely typed language (or dynamically typed)   
-    that you don't need to declare the data types of variables explicitly. The type of a variable is determined at runtime,
-    allowing for more flexibility but also increasing the potential for runtime errors.
-
-    1- Variable Types Change: Variables can hold values of any type and can change types over time.
-            let x = 10;      // x is a number
-            x = "hello";     // now x is a string
-            x = true;        // now x is a boolean
-    2- Type Inference: The interpreter infers the type of the variable based on the assigned value.
-          let message = "Hello, World!";  // message is a string
-
-      3- 
->>>>>>> 2f3c412509d9217e7c134eb1c341ae60937e7c40
     syntax 
         var variable_name =  variable_value 
 
